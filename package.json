@@ -5,6 +5,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "@powershell $env:DEBUG='baseRange:*' ; node app.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
